@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TEST 2</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body> 
+	<div id='wrapper'>
+		<main>
+			<div id='content'>
+				<div class='innertube'>
+					<h1>VOTING SYSTEM</h1>
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+					<p>Click the triangle to vote! vote ! vote!: </p>
+					<span type="button" class="vote" onclick="IncreaseLikes()" value="Vote up!"class="vote"></span>
+					<div id='likes'></div><!-- lke display-->
+					<div id="dislikes"> </div> <!-- dislke display-->
+					<span type="button" class="vote2" onclick="DecreaseLikes()" value="Vote Down"></span>
+					</div>
+			</div>
+		</main>
+
+		<nav id='nav'>
+			<div clss='innertube'>
+				<h3>Links</h3>
+				<ul>
+					<li><a href='#'>LINK 1</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div id="footer-wrapper">
+		<footer id="footer"><p>Luigi Salas</p></footer>
+	</div>
+	<script src='main.js'></script>
+</body>
+</html>
